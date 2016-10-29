@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+                <script src="js/jquery.min.js"></script>
+
+     <script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+            <script>
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 0) {
+            $('nav.main-nav').addClass('stickytop');
+        }
+        else {
+            $('nav.main-nav').removeClass('stickytop');
+        }
+    });
+});
+
+</script>
+        <meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="startup/flat-ui/images/favicon.ico">
+        
+        <link rel="stylesheet" href="startup/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="startup/common-files/css/icon-font.css">
+        <!-- end -->
+        <link rel="stylesheet" href="startup/common-files/css/animations.css">
+        <link rel="stylesheet" href="static/css/style.css">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+
+        <title>Ceic Global</title>
+    </head>
+
+    <body>
+<nav class="main-nav">
+        <div class="page-wrapper"><header class="header-10">
+
+    <div class="container">
+        <div class="row">
+            <div class="navbar col-sm-12" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"></button>
+                    <a class="brand" href="#">CEIC Global</a>
+                </div>
+                <div class="collapse navbar-collapse pull-right">
+                    <ul class="nav pull-left">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#ctrtest">The CTR-Test®</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+
+                    </ul>
+                    <form class="navbar-form pull-left">
+                        <a class="btn btn-success" href="#Order">Order Now</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <div class="header-background"></div>
+</header>
+<section class="header-10-sub v-center">
+    <div class="background" >&nbsp;</div>
+    <div>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Ceic Global</h1>
+                <p>The Cancer Evaluation and Intelligence Center</p>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+</section>
+<section class="content-26 bg-clouds" id="Services">
+    <div class="container" >
+            <div class="animation-element bounce-up">
+                <div class="subject development"> 
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+
+                            <h3>Our Services</h3>
+
+                            <p class="lead">The Cancer Evaluation and Intelligence Center (CEIC) has specialized on modern
+                            diagnostic procedured for cancer.</p>
+                        </div>
+                    </div>
+                    <div class="row features">
+                        <div class="col-sm-3 imgBox">
+                            <a href="professional.html">
+                                <img src="startup/common-files/icons/stat.png" alt="" width="150" height="150" style="height:150px;width:170px">
+                                <h6>Professional Services</h6>
+                                The Cancer Evaluation and Intelligence Center (CEIC) has specialized on modern diagnostic procedures for cancer.  
+                            </a>
+                        </div>
+                            
+                            
+                            
+                        <div class="col-sm-4 col-sm-offset-1 imgBox">
+                            <a href="tools.html">
+                                <img src="startup/common-files/icons/speed.png" alt="" width="150" height="150" style="height:150px;width:270px">
+                                <h6>Predictable Diagnostic Tools</h6>
+                                CEIC distributes reliable diagnostic procedures, which help cancer patients, physicians and health care providers.
+                            </a>
+                        </div>
+                             
+                        <div class="col-sm-3 col-sm-offset-1 imgBox">
+                            <a href="patient.html">
+
+                                <img src="startup/common-files/icons/information.png" alt="" width="150" height="150" style="height:150px;width:150px">
+                                <h6>Patient Information</h6>
+                                In case of a tumor disease CEIC helps persons affected with approved and certified diagnostic procedures.
+                             </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
+ 
+ <section id="ceic_big" class="header-19-sub" id="ctrtest">
+
+    <div class="background" style="height:1000px" id="ctrtest">&nbsp;</div>
+
+    <div class="container">
+         <div class="animation-element bounce-up">
+        <div class="subject development"> 
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h1 style="text-align:left">The CTR-Test®<p><p><p>(Chemotherapy-Resistance-Test) discovers this by identifying ineffective drugs with more than 95% accuracy. <p>How can cancer patients find the best treatment and medication, if chemotherapy is inevitable after removal of the tumor? The CTR-Test® (Chemotherapy-Resistance-Test) discovers this by identifying ineffective drugs with more than 95% accuracy.</p> 
+                        <div class="btns">
+                            <a class="btn btn-primary" href="ctr.html"><span class="fui-document"> </span><span>Learn More</span></a>
+                        </h1>
+                        </div>
+                    
+                    </div>
+                </div>
+    </div>
+            </div>
+    </div>
+</section>
+ 
+<section class="content-26 bg-clouds" id="Order">
+    <div class="container" >
+        <div class="animation-element bounce-up">
+            <div class="subject development"> 
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Order Now</h3>
+
+                        <p class="lead">The Cancer Evaluation and Intelligence Center (CEIC) has specialized on modern
+                        diagnostic procedured for cancer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="animation-element bounce-up">
+            <div class="subject development"> 
+                <div class="row features">
+                    <div class="col-sm-5 imgBox">
+                        <a href="http://leventcetiner.com/ceic-global">
+                            <img src="startup/common-files/icons/doctor.jpg" alt="" width="250" height="250" style="height:100%;width:400px">
+                            <h6>Physicians</h6>
+                            Download the Requitisition Form.
+                        </a>
+                    </div>
+                        
+                        
+                        
+                    <div class="col-sm-5 col-sm-offset-1 imgBox">
+                        <a href="http://leventcetiner.com/ceic-global">
+                            <img src="startup/common-files/icons/handshake.jpg" alt="" width="150" height="150" style="height:100%;width:400px">
+                            <h6>Patients</h6>
+                            Caris Molecular Intelligence services may only be ordered by physicians. If you would like to investigate the possibility of ordering tumor profiling from Caris Life Sciences, please consult with your oncologist or visit our Find A Physician page.
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="content-6 v-center" id="Science">
+    <div>
+        <div class="container" >
+            <h3><img src="startup/common-files/icons/firstaid.png" width="100" height="100" alt=""> More Information </h3>
+
+            <p class="lead">Your Partner for Best Care Management</p>
+
+            <div class="row features">
+<script>/*
+                <div class="col-sm-4 col-sm-offset-2">
+                <a href="http://leventcetiner.com/ceic-global">
+                    <h6>CTR-Test®: Valid Information for the best Customized Treatment</h6>
+
+                    <p>How can cancer patients find the best treatment and medication, if chemotherapy is inevitable after</p>
+                    </a>
+                </div>
+                */
+</script>
+                 <!-- Course 1 -->
+                                 <div class="col-sm-4 col-sm-offset-2">
+
+                <div class="animation-element bounce-up">
+                  <div class="subject development">
+                     
+                 <h6>CTR-Test®: Valid Information for the best Customized Treatment</h6>
+
+                    <p>How can cancer patients find the best treatment and medication, if chemotherapy is inevitable after</p>
+                   </div>
+                </div>
+</div>
+
+
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div class="animation-element bounce-up">
+                        <div class="subject development">
+                            <h6>CEIC Professional Services: Your Partner for Best Care Management</h6>
+
+                            <p>The Cancer Evaluation and Intelligence Center (CEIC) has specialized on modern diagnostic procedures for cancer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row features">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <div class="animation-element bounce-up">
+                        <div class="subject development">                
+                            <h6>The Test Result for the Right Medication</h6>
+
+                            <p>The CTR-Test® uncovers which chemotherapeutic agents are ineffective for an individual patient with more than 95% accuracy.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div class="animation-element bounce-up">
+                        <div class="subject development"> 
+
+                            <a href="http://leventcetiner.com/CEIC_GLOBAL/therapy.html">
+                            <h6>How to Find Your Best Targeted Therapy</h6>
+                            <p>Each person has their own finger print. The genetic identity is just as individual. Therefore it is not surprising that cancer cells also differ from each other, even for the same types of cancer.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="contacts-2" id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Write to us </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <label class="h6">Name / Last Name</label>
+                    <input type="text" class="form-control">
+                    <label class="h6">E-mail</label>
+                    <input type="text" class="form-control">
+                    <label class="h6">Message</label>
+                    <textarea rows="7" class="form-control"></textarea>
+                    <button type="submit" class="btn btn-primary"><span class="fui-mail"></span></button>
+                </form>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <h6>CEIC</h6>
+                <p>The Cancer Evaluation and Intelligence Center</p>
+                <div class="map">
+                    <!--map-->
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;t=m&amp;ll=52.4905332,13.387926&amp;spn=0.04554,0.072956&amp;z=12&amp;output=embed"></iframe>
+                </div>
+                <h6>Nostitzstr. 21
+10961 Berlin</h6>
+                <p>Ust.-ID.Nr: DE 267975146<br>
+Steuernummer: 34/229/54726</p>
+                <div class="links">
+                    <a href="#"><span class="fui-phone"></span> +49 175 345 53 65</a><br>
+                    <a href="#"><span class="fui-mail"></span> info@ceic-global.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-2 bg-midnight-blue">
+    <div class="container"  >
+        <nav class="pull-left">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-btns pull-right">
+            <a href="#">
+                <div class="fui-vimeo"></div>
+                <div class="fui-vimeo"></div>
+            </a>
+            <a href="#">
+                <div class="fui-facebook social-btn-facebook"></div>
+                <div class="fui-facebook"></div>
+            </a>
+            <a href="#">
+                <div class="fui-twitter"></div>
+                <div class="fui-twitter"></div>
+            </a>
+        </div>
+        <div class="additional-links">
+            Be sure to take a look at our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+  
+<script>
+    
+
+    var $animation_elements = $('.animation-element');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
+</script>
+      
+
+          <!-- Placed at the end of the document so the pages load faster -->
+            <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
+            <script src="startup/common-files/js/jquery.bxslider.min.js"></script>
+            <script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+            <script src="startup/common-files/js/jquery.sharrre.min.js"></script>
+            <script src="startup/flat-ui/js/bootstrap.min.js"></script>
+            <script src="startup/common-files/js/masonry.pkgd.min.js"></script>
+            <script src="startup/common-files/js/modernizr.custom.js"></script>
+            <script src="startup/common-files/js/page-transitions.js"></script>
+            <script src="startup/common-files/js/jquery.parallax.min.js"></script>
+            <script src="startup/common-files/js/easing.min.js"></script>
+            <script src="startup/common-files/js/jquery.svg.js"></script>
+            <script src="startup/common-files/js/jquery.svganim.js"></script>
+            <script src="startup/common-files/js/jquery.backgroundvideo.min.js"></script>
+            <script src="startup/common-files/js/froogaloop.min.js"></script>
+            <script src="startup/common-files/js/startup-kit.js"></script>
+            <script src="js/script.js"></script>
+             <script>
+               (function($){
+                    $('.background').each(function(){
+                        $(this).parallax('50%',0.3,true);
+                    })
+                }(jQuery));
+
+            </script>
+
+        </div>
+    </body>
+</html>

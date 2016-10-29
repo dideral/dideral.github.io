@@ -1,0 +1,625 @@
+<
+!DOCTYPE html>
+<html lang="en" >
+<head>
+  <script src="js/jquery.min.js" ></script>
+
+  <script>
+    $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target     = target.length
+          ? target
+          : $('[name=' + this.hash.slice(1) + ']');
+        if(target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+  <script>
+    $(function(){
+    $(window).scroll(function() {
+      if($(this).scrollTop() >= 0) {
+        $('nav.main-nav').addClass('stickytop');
+      }
+      else {
+        $('nav.main-nav').removeClass('stickytop');
+      }
+    });
+  });
+
+  </script>
+  <meta charset="utf-8" >
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <link rel="shortcut icon" href="startup/flat-ui/images/favicon.ico" >
+
+        <link rel="stylesheet" href="startup/flat-ui/bootstrap/css/bootstrap.css" >
+          <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.css" >
+            <!-- Using only with Flat-UI (free)-->
+            <link rel="stylesheet" href="startup/common-files/css/icon-font.css" >
+              <!-- end -->
+              <link rel="stylesheet" href="startup/common-files/css/animations.css" >
+                <link rel="stylesheet" href="static/css/style.css" >
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" ></script>
+                  <script>
+                    jQuery(document).ready(function($){
+                    $("#header").load("header.html");
+                    $("#footer").load("footer.html");
+                  });
+                  </script>
+
+
+                  <title>Ceic Global</title>
+</head>
+
+<body>
+<div id="header" ></div>
+<div class="header-background" ></div>
+</header>
+<section class="header-10-sub v-center" >
+  <div class="background" >&nbsp;</div>
+  <div>
+    <div class="container" >
+      <div class="hero-unit" >
+        <h1>CEIC Global</h1>
+        <p>The Cancer Evaluation and Intelligence Center</p>
+
+        <p>Find the best available treatment globally</p>
+
+        <p>Avoid unnecessary treatments</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</section>
+
+<section class="content-26 bg-clouds" id="whoweare" >
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-8 col-sm-offset-2" >
+            <h3>Who We Are</h3>
+
+            <p class="lead" >The Cancer Evaluation and Intelligence Center
+
+              is founded to carry out the leading technologies to identify
+
+              the treatments that fit most to an individual confronted with
+
+              cancer. Officially accredited by the technology providers
+
+              CEICs msission ist to deminish the boundaries for patients
+
+              and physicians to apply personalized medicine.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<section class="content-26 bg-clouds" id="whatwedo" >
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-8 col-sm-offset-2" >
+            <h3>What we do</h3>
+
+            <p class="lead" >CEIC first and foremost manages direct access to testing
+
+              procedures that reveal the best available treatment options
+
+              and potential studies globally. For our clients we overcome
+
+              boundaries set by distance, availability, logistics and simply
+
+              knowledge about available technologies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<section class="content-26 bg-clouds" id="whywedoit" >
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-8 col-sm-offset-2" >
+            <h3>Why we do it</h3>
+
+            <p class="lead" >Although it is already a common understanding that tumors
+
+              vary in many ways, therapy decision are still mostly based
+
+              on findings of general studies that do not take into count the
+
+              individual nature of tumors. The result: treatments that have
+
+              poor impact on tumor growth but sideeffects. CEIC tools help
+
+              to identify the treatment options that fit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<section class="content-26 bg-clouds" id="Services" >
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-8 col-sm-offset-2" >
+
+            <h3>Our Services</h3>
+
+            <p class="lead" >Patients and their doctors get direct access to testing tools
+
+              and consultation on their specific case to identify the best
+
+              available option</p>
+          </div>
+        </div>
+        <div class="row features" >
+          <div class="col-sm-3 imgBox" >
+            <a href="professional.html" >
+              <img src="startup/common-files/icons/speed.png" alt="" width="150" height="150" style="height:150px;width:270px" >
+
+                <h6>Our Service</h6>
+
+
+                We speed up the process of personalized cancer care
+
+                As a processor CEIC is built to make the process of applied
+
+                personal medicine as easy as possible. Learn here why our
+
+                service can make a difference to your case
+          </div>
+
+
+          <div class="col-sm-4 col-sm-offset-1 imgBox" >
+            <a href="tools.html" >
+              <img src="startup/common-files/icons/stat.png" alt="" width="150" height="150" style="height:150px;width:170px" >
+                <h6>Explore Our Options</h6>
+                Learn more of the available technologies and what
+
+                each technology can mean to your specific situation.
+            </a>
+          </div>
+
+          <div class="col-sm-3 col-sm-offset-1 imgBox" >
+            <a href="index.html#FAQ" >
+
+              <img src="startup/common-files/icons/information.png" alt="" width="150" height="150" style="height:150px;width:150px" >
+                <h6>FAQ</h6>
+                Caris Molecular Intelligence® can identify biomarkers in your tumor that provide invaluable information
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="ceic_big" class="header-19-sub" id="ctrtest" >
+
+  <div class="background" style="height:1000px" id="ctrtest" >&nbsp;</div>
+
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-5" >
+            <h1 style="text-align:left" >The CTR-Test®
+              <p>
+                <p>
+                  <p>(Chemotherapy-Resistance-Test) discovers this by identifying ineffective drugs with more than 95%
+                    accuracy. <p>How can cancer patients find the best treatment and medication, if chemotherapy is
+                      inevitable after removal of the tumor? The CTR-Test® (Chemotherapy-Resistance-Test) discovers this
+                      by identifying ineffective drugs with more than 95% accuracy.</p>
+                    <div class="btns" >
+                      <a class="btn btn-primary" href="ctr.html" ><span class="fui-document" > </span><span>Learn More</span></a>
+            </h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="content-26 bg-clouds" >
+  <div class="container" >
+    <div class="animation-element bounce-up" >
+      <div class="subject development" >
+        <div class="row" >
+          <div class="col-sm-8 col-sm-offset-2" >
+            <br>
+              <br>
+                <br>
+                  <br>
+                    <h3>Get in touch with us</h3>
+
+                    <p class="lead" >If you are diagnosed with cancer and want to learn more how you make sure you get
+                      the treatment that fits on your individual need! Reach out and get us</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<section class="content-6 v-center" id="FAQ" >
+  <div>
+    <div class="container" >
+      <h3><img src="startup/common-files/icons/firstaid.png" width="100" height="100" alt="" > FAQ</h3>
+
+      <p class="lead" >Your Partner for Best Care Management</p>
+
+      <div class="row features" >
+
+        <!-- Course 1 -->
+        <div class="col-sm-4 col-sm-offset-2" >
+
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+
+              <h6>Does it matter what kind of tumor I have?</h6>
+
+              <p>The tests work on solid tumor diesease. That means all type of
+
+                tumors that are clearly to identify by a mass. In contrary are forms
+
+                of leukemia. Please cotatc us to check in your case.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4 col-sm-offset-1" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>What are my advantages to perform a test?</h6>
+
+              <p>Cancer treatments are mostly based on studies and the
+
+                conclusions out of the studies are converted into guidelines.
+
+                Modern science already knows no tumor is a like. That simply
+
+                means using a therapy that showed in a study it worked in a
+
+                number of cases still does not mean it will work in your case. The
+
+                tools ready to use predict evidence based the potential use out of
+
+                a chemotherapy or identify available trageted therapies based on
+
+                the specific condition of your tumor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row features" >
+        <div class="col-sm-4 col-sm-offset-2" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>Should not everyone perform such a test?</h6>
+
+              <p>Well, one of the golden rules in medicine and especially in
+
+                oncology is: no case is alike. Healthcare providers stating it always
+
+                makes sense nevertheless in which situation you are should alarm
+
+                you. A diagnostic tool can only be as good as the therapies
+
+                available. So before taking the decision for such a tool we look will
+
+                take a close look on your case and connect you with an expert in
+
+                short time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-sm-offset-1" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>My doctor has concerns to use such tools? Can we talk it over?
+              </h6>
+
+              <p>We support you at any stage. If your physician has concerns we can arrange a direct conversation with
+                an expert of our partners so your physician and you get all questions answered.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row features" >
+        <div class="col-sm-4 col-sm-offset-2" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>Will I need a „go“ from my doctor?
+              </h6>
+
+              <p>In general: yes. The tools to identify an available treatment or even predict the response of a
+                chemotherapy require tumor mass or other substances that contain tumor cells like pathology specimen
+                that needs to be orderly send. </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4 col-sm-offset-1" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+
+              <a href="http://leventcetiner.com/CEIC_GLOBAL/therapy.html" >
+                <h6>Do the tests argue against established guidelines?
+                </h6>
+                <p>The tests optimizing the process of decision taking within a cancer therapy. For example many chemo
+                  agents are available with no clear regime in benefit-risk ratio. So the tests help to identify the
+                  ones who are most likely not work on the tumor. Side effects can be avoided and time for agents is
+                  safed that due have impact on the tumor growth. </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-6 v-center" id="Science" >
+  <div>
+    <div class="container" >
+      <h3><img src="startup/common-files/icons/firstaid.png" width="100" height="100" alt="" > COSTS</h3>
+
+      <p class="lead" >Depending on the tool and on the range of performance. </p>
+      <p class="lead" >For example
+
+        on the number of tested agents or the density of a microbiolar
+
+        testing.</p>
+      <p class="lead" > Once we know exactly the case, you will receive an
+
+        estimate to have full cost control.</p>
+
+      <div class="row features" >
+
+        <!-- Course 1 -->
+        <div class="col-sm-4 col-sm-offset-2" >
+
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+
+              <h6>Are there any extra costs CEIC charges?</h6>
+
+              <p>No. As a processor we are intalled by the technology hubs to make
+
+                the access as easy as possible.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4 col-sm-offset-1" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>Reimbursement</h6>
+
+              <p>The number of cases reaching reimbursements from insurance
+
+                companies vary from country to country. But definately worth to
+
+                try. We support you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row features" >
+        <div class="col-sm-4 col-sm-offset-2" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+              <h6>Payment</h6>
+
+              <p>All orders must be paid in advance. You will receive a detailed
+
+                invoice by the performing partner that can be used for tax or
+
+                insurance reimbursement processing. You can pay by wire or credit card. Please note: A credit card fee
+                may apply.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4 col-sm-offset-1" >
+          <div class="animation-element bounce-up" >
+            <div class="subject development" >
+
+              <h6>Who is behind the tests?</h6>
+              <p>We focus on the market leaders in each field :
+                Caris Lifescience, USA http://www.carislifesciences.com <p>
+                  Therapy Select, Germany http://www.therapyselect.de/en</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contacts-2" id="Contact" >
+  <div class="container" >
+    <div class="row" >
+      <div class="col-sm-8" >
+        <h3>Get in Touch </h3>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-sm-6" >
+<form class="email" action="mailer.php" method="post"  onSubmit="alert('Thank you for your feedback. We will get back to you as soon as possible')">
+          <label class="h6" >Name / Last Name</label>
+          <input type="text" name="name" class="form-control" >
+            <label class="h6" >E-mail</label>
+            <input type="text" name="email" class="form-control" >
+              <label class="h6" >Message</label>
+              <textarea name="message" rows="7" class="form-control" ></textarea>
+              <button type="submit" class="btn btn-primary" ><span class="fui-mail" ></span></button>
+        </form>
+      </div>
+      <div class="col-sm-5 col-sm-offset-1" >
+        <h6>Call back service:</h6>
+        <p>You want to be called to discuss your case? Send us your data and
+
+          best time to reach you. We make it happen.</p>
+
+        <div class="map" >
+          <!--map-->
+          <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;t=m&amp;ll=52.4905332,13.387926&amp;spn=0.04554,0.072956&amp;z=12&amp;output=embed" ></iframe>
+        </div>
+        <h6>CEIC The Cancer Evaluation and Intelligence Center Office in
+
+          Berlin and Heidelberg</h6>
+        <p>Denis Bikmaz
+          <br>Nostitzstraße 21
+            <br>10961 Berlin
+              <br><br>Heidelberg
+                <br>Carl-Bosch-Straße 4,
+                  <br>69115 Heidelberg
+        </p>
+        <p>+49 (0) 6221 89 36 157
+
+          <br>
+            +49 (0) 176 856 68088</p>
+        <div class="links" >
+
+          <a href="mailto:info@ceic-global.com" ><span class="fui-mail" ></span> info@ceic-global.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-2 bg-midnight-blue" >
+  <div class="container" >
+    <nav class="pull-left" >
+      <ul>
+        <li class="active" ><a href="#" >Home</a></li>
+        <li><a href="#whoweare" >Who We Are</a></li>
+        <li><a href="#whatwedo" >What We Do</a></li>
+        <li><a href="#whywedoit" >Why We Do It</a></li>
+        <li><a href="#Contact" >Get in Touch</a></li>
+      </ul>
+    </nav>
+    <div class="pull-right" >
+      <div class="additional-links" >
+        Be sure to take a look at our <a href="/disclaimer.html" >Impressum</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+
+
+  var $animation_elements = $('.animation-element');
+  var $window = $(window);
+
+  function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+
+  $.each($animation_elements, function() {
+  var $element = $(this);
+  var element_height = $element.outerHeight();
+  var element_top_position = $element.offset().top;
+  var element_bottom_position = (element_top_position + element_height);
+
+  //check to see if this current container is within viewport
+  if ((element_bottom_position >= window_top_position) &&
+  (element_top_position <= window_bottom_position)) {
+  $element.addClass('in-view');
+} else {
+  $element.removeClass('in-view');
+}
+});
+}
+
+  $window.on('scroll resize', check_if_in_view);
+  $window.trigger('scroll');
+</script>
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="startup/common-files/js/jquery-1.10.2.min.js" ></script>
+<script src="startup/common-files/js/jquery.bxslider.min.js" ></script>
+<script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js" ></script>
+<script src="startup/common-files/js/jquery.sharrre.min.js" ></script>
+<script src="startup/flat-ui/js/bootstrap.min.js" ></script>
+<script src="startup/common-files/js/masonry.pkgd.min.js" ></script>
+<script src="startup/common-files/js/modernizr.custom.js" ></script>
+<script src="startup/common-files/js/page-transitions.js" ></script>
+<script src="startup/common-files/js/jquery.parallax.min.js" ></script>
+<script src="startup/common-files/js/easing.min.js" ></script>
+<script src="startup/common-files/js/jquery.svg.js" ></script>
+<script src="startup/common-files/js/jquery.svganim.js" ></script>
+<script src="startup/common-files/js/jquery.backgroundvideo.min.js" ></script>
+<script src="startup/common-files/js/froogaloop.min.js" ></script>
+<script src="startup/common-files/js/startup-kit.js" ></script>
+<script src="js/script.js" ></script>
+<script>
+  (function($){
+  $('.background').each(function() {
+    $(this).parallax('50%', 0.3, true);
+  })
+}(jQuery));
+
+</script>
+
+</div>
+</body>
+</html>
