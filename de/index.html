@@ -2,448 +2,502 @@
 <html lang="en">
 
 <head>
-	<script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
 
-	<script>
-    $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target     = target.length
-          ? target
-          : $('[name=' + this.hash.slice(1) + ']');
-        if(target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-  </script>
-	<script>
-    $(function(){
-    $(window).scroll(function() {
-      if($(this).scrollTop() >= 0) {
-        $('nav.main-nav').addClass('stickytop');
-      }
-      else {
-        $('nav.main-nav').removeClass('stickytop');
-      }
-    });
-  });
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') ==
+                    this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $(
+                        '[name=' + this.hash.slice(1) + ']'
+                    );
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 0) {
+                    $('nav.main-nav').addClass('stickytop');
+                } else {
+                    $('nav.main-nav').removeClass('stickytop');
+                }
+            });
+        });
+    </script>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="shortcut icon" href="../startup/flat-ui/images/favicon.ico">
 
-  </script>
-	<meta charset="utf-8">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<link rel="shortcut icon" href="../startup/flat-ui/images/favicon.ico">
-
-	<link rel="stylesheet" href="../startup/flat-ui/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="../startup/flat-ui/css/flat-ui.css">
-	<!-- Using only with Flat-UI (free)-->
-	<link rel="stylesheet" href="../startup/common-files/css/icon-font.css">
-	<!-- end -->
-	<link rel="stylesheet" href="../startup/common-files/css/animations.css">
-	<link rel="stylesheet" href="../static/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script>
-                    jQuery(document).ready(function($){
-                    $("#header").load("headerde.html");
-                    $("#footer").load("footer.html");
-                  });
-                  </script>
+    <link rel="stylesheet" href="../startup/flat-ui/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../startup/flat-ui/css/flat-ui.css">
+    <!-- Using only with Flat-UI (free)-->
+    <link rel="stylesheet" href="../startup/common-files/css/icon-font.css">
+    <!-- end -->
+    <link rel="stylesheet" href="../startup/common-files/css/animations.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $("#header").load("headerde.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 
 
-	<title>CEIC Global</title>
+    <title>CEIC Global</title>
 </head>
 
 
 <body>
-	<div id="header"></div>
-	<div class="header-background"></div>
-	</header>
-	<section class="header-10-sub v-center">
-		<div class="background">&nbsp;</div>
-		<div>
-			<div class="container">
-				<div class="hero-unit">
-					<h1>CEIC Global</h1>
-					<p>Kontaktstelle für Patienten mit Krebs</p>
-				</div>
-			</div>
-		</div>
+    <div id="header"></div>
+    <div class="header-background"></div>
+    </header>
+    <section class="header-10-sub v-center">
+        <div class="background">&nbsp;</div>
+        <div>
+            <div class="container">
+                <div class="hero-unit">
+                    <h1>CEIC Global</h1>
+                    <p>Kontaktstelle für Patienten mit Krebs</p>
+                </div>
+            </div>
+        </div>
 
-	</section>
+    </section>
 
-	</section>
+    </section>
 
-	<section class="content-26 bg-clouds" id="whoweare">
-		<div class="container">
-			<div class="animation-element bounce-up">
-				<div class="subject development">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Wer ist CEIC</h3>
+    <section class="content-26 bg-clouds" id="whoweare">
+        <div class="container">
+            <div class="animation-element bounce-up">
+                <div class="subject development">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h3>Wer ist CEIC</h3>
 
-							<p class="lead">Die CEIC ist eine Kontaktstelle für Patienten mit soliden Tumorerkrankungen. Als unabhängige Anlaufstelle bauen wir für Patienten in persönlicher Beratung die Brücke zu unabhängigen Ärzten für zweite Meinungen, weiterführenden Behandlungen oder modernsten Diagnostika um Entscheidungen für oder gegen eine Therapie auf eine möglichst sichere Grundlage zu stellen oder neue Therapieoptionen
-	            zu finden.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-	</section>
-
-	<section class="content-26 bg-clouds" id="whatwedo">
-		<div class="container">
-			<div class="animation-element bounce-up">
-				<div class="subject development">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Was tun wir genau</h3>
-
-						<p class="lead">Wir helfen konkret bei der Suche nach Ärzten, die zu Ihnen passen, verschaffen Ihnen eine unabhängige zweite Meinung um sicherzustellen,dass Sie die richtige Therapie wählen oder ermöglichen Ihnen den Zugang zu modernsten Diagnostika, die die Wirksamkeit von Zytostatika oder anderen Medikamenten vor Gabe messen können, damit Sie mit gutem Gefühl informiert entscheiden.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+                            <p class="lead">Die CEIC ist eine Kontaktstelle für Patienten mit 									soliden Tumorerkrankungen. Als unabhängige Anlaufstelle bauen
+                                wir für Patienten in persönlicher Beratung die Brücke
+                                zu unabhängigen Ärzten für zweite Meinungen, weiterführenden
+                                Behandlungen oder modernsten Diagnostika um Entscheidungen
+                                für oder gegen eine Therapie auf eine möglichst sichere
+                                Grundlage zu stellen oder neue Therapieoptionen zu
+                                finden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-		</div>
+        </div>
 
-	</section>
+    </section>
 
-	<section class="content-26 bg-clouds" id="Services">
-		<div class="container">
-			<div class="animation-element bounce-up">
-				<div class="subject development">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
+    <section class="content-26 bg-clouds" id="whatwedo">
+        <div class="container">
+            <div class="animation-element bounce-up">
+                <div class="subject development">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h3>Was tun wir genau</h3>
 
-							<h3>Unser Service</h3>
-
-							<p class="lead">Aufklären.Begleiten.Steuern.</p>
-						</div>
-					</div>
-					<div class="row features">
-						<div class="col-sm-6">
-
-							<img src="../startup/common-files/icons/speed.png" alt="" width="150" height="150" style="height:150px;width:270px">
-
-							<h6>Unser Service</h6>
-
-              Sprechen Sie mit uns. Wir nehmen uns Zeit und erwägen gemeinsam, den nächsten Schritt. Eine zweite Meinung, weil Sie sich noch unsicher sind? Ein Onkologe mit der Fähigkeit, ganzheitlich zu behandeln? Oder ein modernes Testverfahren, das dabei hilft die richtige Therapie zu finden? Nutzen Sie unser Netzwerk.
-						</div>
+                            <p class="lead">Wir helfen konkret bei der Suche nach Ärzten, die zu
+                                Ihnen passen, verschaffen Ihnen eine unabhängige
+                                zweite Meinung um sicherzustellen,dass Sie die richtige
+                                Therapie wählen oder ermöglichen Ihnen den Zugang
+                                zu modernsten Diagnostika, die die Wirksamkeit von
+                                Zytostatika oder anderen Medikamenten vor Gabe messen
+                                können, damit Sie mit gutem Gefühl informiert entscheiden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-						<div class="col-sm-6 ">
-							<img src="../startup/common-files/icons/stat.png" alt="" width="150" height="150" style="height:150px;width:170px">
-							<h6>Zweite Meinung</h6>
-              Eine zweite Meinung wirkt. Unabhängig, von hochqualifizierten Ärzten, die die Leitlinien beherrschen aber auch ganzheitlich denken. Kontaktieren Sie uns. Wir sind persönlich für Sie da.
+        </div>
 
-						</div>
+    </section>
 
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="content-26 bg-clouds" id="Services">
+        <div class="container">
+            <div class="animation-element bounce-up">
+                <div class="subject development">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+
+                            <h3>Unser Service</h3>
+
+                            <p class="lead">Aufklären.Begleiten.Steuern.</p>
+                        </div>
+                    </div>
+                    <div class="row features">
+                        <div class="col-sm-6">
+
+                            <img src="../startup/common-files/icons/speed.png" alt="" width="150" 							  height="150" style="height:150px;width:270px">
+							 <h6>Unser Service</h6> Sprechen Sie mit uns. Wir nehmen uns Zeit und 							  erwägen gemeinsam, den nächsten Schritt. Eine zweite Meinung,
+                            weil Sie sich noch unsicher sind? Ein Onkologe mit der
+                            Fähigkeit, ganzheitlich zu behandeln? Oder ein modernes
+                            Testverfahren, das dabei hilft die richtige Therapie
+                            zu finden? Nutzen Sie unser Netzwerk.
+                        </div>
+
+
+                        <div class="col-sm-6 ">
+                            <img src="../startup/common-files/icons/stat.png" alt="" width="150" 							 height="150" style="height:150px;width:170px">
+                            <h6>Zweite Meinung</h6> Eine zweite Meinung wirkt. Unabhängig, von 								hochqualifizierten Ärzten, die die Leitlinien beherrschen aber auch 							ganzheitlich denken. Kontaktieren Sie uns. Wir sind persönlich für
+                            Sie da.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
-	<section id="ceic_big" class="header-19-sub" id="ctrtest">
+    <section id="ceic_big" class="header-19-sub" id="ctrtest">
 
-		<div class="background" style="height:1000px" id="ctrtest">&nbsp;</div>
+        <div class="background" style="height:1000px" id="ctrtest">&nbsp;</div>
 
-		<div class="container">
-			<div class="animation-element bounce-up">
-				<div class="subject development">
-					<div class="row">
-						<div class="col-sm-5">
-							<h1 style="text-align:left">Tumoranalysen:
+        <div class="container">
+            <div class="animation-element bounce-up">
+                <div class="subject development">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h1 style="text-align:left">Tumoranalysen:
 								<p>
 									<p>
 										<p>Der Caris Molecular Intelligence Test ist herkömmlichen Testverfahren überlegen. Der Grund liegt in der kombinierten
 											Anwendung der verfügbaren Biomarker.</p>
 							</h1>
-						</div>
+                        </div>
 
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
-	<section class="content-26 bg-clouds">
-		<div class="container">
-			<div class="animation-element bounce-up">
-				<div class="subject development">
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<br>
-							<br>
-							<br>
-							<br>
-							<h3>Kontaktieren Sie uns!</h3>
+    <section class="content-26 bg-clouds">
+        <div class="container">
+            <div class="animation-element bounce-up">
+                <div class="subject development">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Kontaktieren Sie uns!</h3>
 
-							<p class="lead">Wie nehmen uns Zeit für Sie</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-	</section>
-
-	<section class="content-6 v-center" id="FAQ">
-		<div>
-			<div class="container">
-				<h3><img src="../startup/common-files/icons/firstaid.png" width="100" height="100" alt=""> FAQ</h3>
-
-				<p class="lead">Your Partner for Best Care Management</p>
-
-				<div class="row features">
-
-					<!-- Course 1 -->
-					<div class="col-sm-4 col-sm-offset-2">
-
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-
-								<h6>Ich bin in Behandlung. Was kann CEIC tun?</h6>
-
-							<p>Nach unserer Erfahrung ist die Behandlung von Krebs ein hochkomplexes Thema. Studien, Literatur, individuelle Ausprägungen.Es hat sich mehr als bewährt, einen unabhängigen Blick auf die Behandlungsvorschläge und auch Diagnosen zu haben. Wir arbeiten
-	            mit einem Netz hocherfahrener Spezialisten, die sowohl klinische Erfahrung haben als auch Expertise in Supportivmedizin, die erheblich die Nebenwirkungen lindern kann.</p>
-
-							</div>
-						</div>
-					</div>
+                            <p class="lead">Wie nehmen uns Zeit für Sie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-					<div class="col-sm-4 col-sm-offset-1">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-								<h6>Spielt es eine Rolle, was für einen Tumor ich habe?</h6>
+        </div>
 
-								<p>Wir sind spezialisiert auf alle Formen solider Tumore.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+    </section>
 
-				<div class="row features">
-					<div class="col-sm-4 col-sm-offset-2">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-								<h6>Was sind für Ergebnisse nach einer zweiten Meinung zu erwarten?</h6>
+    <section class="content-6 v-center" id="FAQ">
+        <div>
+            <div class="container">
+                <h3><img src="../startup/common-files/icons/firstaid.png" width="100" height="100" alt=""> FAQ</h3>
 
-						<p>Das kann nahezu alles sein. Von falschen Grunddiagnosen der Pathologie bis hin zu allzu schematischer Anwendung von Leitlinien oder Studienergebnissen. Im besten Fall kann die Hauptbehandlung als richtig bestätigt werden und noch Tipps zur besseren Verträglichkeit gegeben werden. Aber auch die Einleitung eines Wechsels des behandelnden Arztes oder die Aufnahme in eine Studie sind möglich.</p>
-</div>
-						</div>
-					</div>
+                <p class="lead">Your Partner for Best Care Management</p>
 
-					<div class="col-sm-4 col-sm-offset-1">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-								<h6>Warum sollte ich einen Test durchführen lassen?</h6>
+                <div class="row features">
 
-								<p>Die Testverfahren können einen entscheidenden Unterschied bewirken. Bei der Multiplattformanalyse von CARIS kommt es in ca. 70% der Fälle nach Durchführung zu einer Anpassung des Therapieplans! In vielen Fällen können dadurch unwirksame Therapien vermieden werden und passende Verfahren identifiziert werden. Ähnlich häufig ist dies bei den Chemotherapie Resistenz Testungen aus.</p>
+                    <!-- Course 1 -->
+                    <div class="col-sm-4 col-sm-offset-2">
+
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+
+                                <h6>Ich bin in Behandlung. Was kann CEIC tun?</h6>
+
+                                <p>Nach unserer Erfahrung ist die Behandlung von Krebs
+                                    ein hochkomplexes Thema. Studien, Literatur,
+                                    individuelle Ausprägungen.Es hat sich mehr als
+                                    bewährt, einen unabhängigen Blick auf die Behandlungsvorschläge
+                                    und auch Diagnosen zu haben. Wir arbeiten mit
+                                    einem Netz hocherfahrener Spezialisten, die sowohl
+                                    klinische Erfahrung haben als auch Expertise
+                                    in Supportivmedizin, die erheblich die Nebenwirkungen
+                                    lindern kann.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-sm-offset-1">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+                                <h6>Spielt es eine Rolle, was für einen Tumor ich habe?</h6>
+
+                                <p>Wir sind spezialisiert auf alle Formen solider Tumore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row features">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+                                <h6>Was sind für Ergebnisse nach einer zweiten Meinung zu erwarten?</h6>
+
+                                <p>Das kann nahezu alles sein. Von falschen Grunddiagnosen
+                                    der Pathologie bis hin zu allzu schematischer
+                                    Anwendung von Leitlinien oder Studienergebnissen.
+                                    Im besten Fall kann die Hauptbehandlung als richtig
+                                    bestätigt werden und noch Tipps zur besseren
+                                    Verträglichkeit gegeben werden. Aber auch die
+                                    Einleitung eines Wechsels des behandelnden Arztes
+                                    oder die Aufnahme in eine Studie sind möglich.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-sm-offset-1">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+                                <h6>Warum sollte ich einen Test durchführen lassen?</h6>
+
+                                <p>Die Testverfahren können einen entscheidenden Unterschied
+                                    bewirken. Bei der Multiplattformanalyse von CARIS
+                                    kommt es in ca. 70% der Fälle nach Durchführung
+                                    zu einer Anpassung des Therapieplans! In vielen
+                                    Fällen können dadurch unwirksame Therapien vermieden
+                                    werden und passende Verfahren identifiziert werden.
+                                    Ähnlich häufig ist dies bei den Chemotherapie
+                                    Resistenz Testungen aus.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row features">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+                                <h6>Mein Arzt hat Bedenken oder lehnt einen Vorschlag ab. Was kann ich tun?</h6>
+
+                                <p>Die Onkologie ist ein sehr komplexes Feld. Eigentlich
+                                    zu komplex, als das ein Arzt alles überblicken
+                                    kann. Daher kommt es manchmal zu ablehnenden
+                                    Reaktionen, da die Zeit oder der Raum fehlt um
+                                    neue Ansätze einzuflechten. In einem solchen
+                                    Fall helfen wir. Wir reden persönlich mit Ihrem
+                                    Onkologen oder vermitteln Sie auf Wunsch zu einem
+                                    Facharzt mit Erfahrung in Ihrem Fall.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-sm-offset-1">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
+
+                                <h6>Richten sich die Tests gegen die Standardtherapien?
+									</h6>
+                                <p>Nein. Wir arbeiten unvoreingenommen und evidenzbasiert.
+                                    Es kommt vor, dass im Rahmen der Überprüfungen
+                                    von Therapieplänen die Empfehlungen vollständig
+                                    bestätigt werden können. Es kommt aber auch vor,
+                                    dass dringend Anpassungen empfohlen werden oder
+                                    sogar die komplette Diagnose in Frage steht.
+                                    Wir legen zudem großen Wert auf Ärzte, die einen
+                                    ganzheitlichen Ansatz verfolgen und überdurchschnittliche
+                                    Erfahrung im klinischen und holistischen Bereich
+                                    aufweisen können.</p>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-						</div>
-					</div>
-				</div>
+                <div class="row features">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <div class="animation-element bounce-up">
+                            <div class="subject development">
 
-				<div class="row features">
-					<div class="col-sm-4 col-sm-offset-2">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-								<h6>Mein Arzt hat Bedenken oder lehnt einen Vorschlag ab. Was kann ich tun?</h6>
-
-								<p>Die Onkologie ist ein sehr komplexes Feld. Eigentlich zu komplex, als das ein Arzt alles überblicken kann. Daher kommt es manchmal zu ablehnenden Reaktionen, da die Zeit oder der Raum fehlt um neue Ansätze einzuflechten. In einem solchen Fall helfen wir. Wir reden persönlich mit Ihrem Onkologen oder vermitteln Sie auf Wunsch zu einem Facharzt
-								mit Erfahrung in Ihrem Fall.</p>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="col-sm-4 col-sm-offset-1">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-
-									<h6>Richten sich die Tests gegen die Standardtherapien?
+                                <h6>Kosten
 									</h6>
-									<p>Nein. Wir arbeiten unvoreingenommen und evidenzbasiert. Es kommt vor, dass im Rahmen der Überprüfungen von Therapieplänen die Empfehlungen vollständig bestätigt werden können. Es kommt aber auch vor, dass dringend Anpassungen empfohlen werden oder sogar die komplette Diagnose in Frage
-                  steht. Wir legen zudem großen Wert auf Ärzte, die einen ganzheitlichen Ansatz verfolgen und überdurchschnittliche Erfahrung im klinischen und holistischen Bereich aufweisen können.</p>
-					 
-							</div>
-						</div>
-					</div>
-
-				</div>
-        		<div class="row features">
-					<div class="col-sm-4 col-sm-offset-2">
-						<div class="animation-element bounce-up">
-							<div class="subject development">
-
-									<h6>Kosten
-									</h6>
-									<p>Es fallen für Sie die regulären ärztlichen Gebühren an. CEIC erhebt keine zusätzlichen Kosten. Bei Testverfahren, die die Krankenkasse nicht übernimmt, fallen die Gebühren des Herstellers an. Darüber werden Sie aber vorab gesondert informiert, so dass Sie die Entscheidung in Ruhe abwägen können.</p>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
-	</section>
+                                <p>Es fallen für Sie die regulären ärztlichen Gebühren
+                                    an. CEIC erhebt keine zusätzlichen Kosten. Bei
+                                    Testverfahren, die die Krankenkasse nicht übernimmt,
+                                    fallen die Gebühren des Herstellers an. Darüber
+                                    werden Sie aber vorab gesondert informiert, so
+                                    dass Sie die Entscheidung in Ruhe abwägen können.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
 
-	<section class="contacts-2" id="Contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8">
-					<h3>Get in Touch </h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<form class="email" action="../mailer.php" method="post" onSubmit="alert('Thank you for your feedback. We will get back to you as soon as possible')">
-						<label class="h6">Name</label>
-						<input type="text" name="name" class="form-control">
-						<label class="h6">e-mail</label>
-						<input type="text" name="email" class="form-control">
-						<label class="h6">Ihre Nachtricht</label>
-						<textarea name="message" rows="7" class="form-control"></textarea>
-						<button type="submit" class="btn btn-primary"><span class="fui-mail" ></span></button>
-					</form>
+    <section class="contacts-2" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>Get in Touch </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <form class="email" action="../mailer.php" method="post" onSubmit="alert('Thank you for your feedback. We will get back to you as soon as possible')">
+                        <label class="h6">Name</label>
+                        <input type="text" name="name" class="form-control">
+                        <label class="h6">e-mail</label>
+                        <input type="text" name="email" class="form-control">
+                        <label class="h6">Ihre Nachtricht</label>
+                        <textarea name="message" rows="7" class="form-control"></textarea>
+                        <button type="submit" class="btn btn-primary"><span class="fui-mail"></span>
+                        </button>
+                    </form>
 
 
 
 
 
+                </div>
+                <div class="col-sm-5 col-sm-offset-1">
 
+                    <p>Rufen Sie uns an. Wir nehmen uns Zeit für Sie! oder Schrieben
+                        Sie uns eine e-Mail mit Ihren Kontaktdaten. Wir rufen Sie
+                        schnellstmöglich zurück. </p>
 
-				</div>
-				<div class="col-sm-5 col-sm-offset-1">
-
-					<p>Rufen Sie uns an. Wir nehmen uns Zeit für Sie! oder Schrieben Sie uns eine e-Mail mit Ihren Kontaktdaten. Wir rufen
-						Sie schnellstmöglich zurück. </p>
-
-					<div class="map">
-						<!--map-->
-						<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;t=m&amp;ll=52.4905332,13.387926&amp;spn=0.04554,0.072956&amp;z=12&amp;output=embed"></iframe>
-					</div>
-					<h6>CEIC <br>The Cancer Evaluation and Intelligence Center Verantwortlich
+                    <div class="map">
+                        <!--map-->
+                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;t=m&amp;ll=52.4905332,13.387926&amp;spn=0.04554,0.072956&amp;z=12&amp;output=embed"></iframe>
+                    </div>
+                    <h6>CEIC <br>The Cancer Evaluation and Intelligence Center Verantwortlich
 
 						<br>Denis Bikmaz</h6>
-					<p>Büro Berlin:
-						<br>Nostitzstraße 21
-						<br>10961 Berlin
-						<br><br>Büro Heidelberg
-						<br>Carl-Bosch-Straße 4,
-						<br>69115 Heidelberg
-					</p>
-					<p>Telephone: 06221-8936-174
+                    <p>Büro Berlin:
+                        <br>Nostitzstraße 21
+                        <br>10961 Berlin
+                        <br>
+                        <br>Büro Heidelberg
+                        <br>Carl-Bosch-Straße 4,
+                        <br>69115 Heidelberg
+                    </p>
+                    <p>Telephone: 06221-8936-174
 
-						<p>Fax: 06221-8936-173
-
-
-							<div class="links">
-
-								<a href="mailto:info@ceic-global.com"><span class="fui-mail" ></span> info@ceic-global.com</a>
-							</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="footer-2 bg-midnight-blue">
-		<div class="container">
-			<nav class="pull-left">
-				<ul>
-	
-				</ul>
-			</nav>
-			<div class="pull-right">
-				<div class="additional-links">
-					Be sure to take a look at our <a href="/disclaimer.html">Impressum</a>
-				</div>
-			</div>
-
-		</div>
-	</footer>
-
-	<script>
+                        <p>Fax: 06221-8936-173
 
 
-  var $animation_elements = $('.animation-element');
-  var $window = $(window);
+                            <div class="links">
 
-  function check_if_in_view() {
-  var window_height = $window.height();
-  var window_top_position = $window.scrollTop();
-  var window_bottom_position = (window_top_position + window_height);
+                                <a href="mailto:info@ceic-global.com"><span class="fui-mail" ></span> info@ceic-global.com</a>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  $.each($animation_elements, function() {
-  var $element = $(this);
-  var element_height = $element.outerHeight();
-  var element_top_position = $element.offset().top;
-  var element_bottom_position = (element_top_position + element_height);
+    <footer class="footer-2 bg-midnight-blue">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
 
-  //check to see if this current container is within viewport
-  if ((element_bottom_position >= window_top_position) &&
-  (element_top_position <= window_bottom_position)) {
-  $element.addClass('in-view');
-} else {
-  $element.removeClass('in-view');
-}
-});
-}
+                </ul>
+            </nav>
+            <div class="pull-right">
+                <div class="additional-links">
+                    Be sure to take a look at our <a href="/disclaimer.html">Impressum</a>
+                </div>
+            </div>
 
-  $window.on('scroll resize', check_if_in_view);
-  $window.trigger('scroll');
-</script>
+        </div>
+    </footer>
+
+    <script>
+        var $animation_elements = $('.animation-element');
+        var $window = $(window);
+
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position +
+                window_height);
+
+            $.each($animation_elements, function() {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position +
+                    element_height);
+
+                //check to see if this current container is within viewport
+                if ((element_bottom_position >= window_top_position) &&
+                    (element_top_position <= window_bottom_position)
+                ) {
+                    $element.addClass('in-view');
+                } else {
+                    $element.removeClass('in-view');
+                }
+            });
+        }
+
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+    </script>
 
 
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="../startup/common-files/js/jquery-1.10.2.min.js"></script>
-	<script src="../startup/common-files/js/jquery.bxslider.min.js"></script>
-	<script src="../startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-	<script src="../startup/common-files/js/jquery.sharrre.min.js"></script>
-	<script src="../startup/flat-ui/js/bootstrap.min.js"></script>
-	<script src="../startup/common-files/js/masonry.pkgd.min.js"></script>
-	<script src="../startup/common-files/js/modernizr.custom.js"></script>
-	<script src="../startup/common-files/js/page-transitions.js"></script>
-	<script src="../startup/common-files/js/jquery.parallax.min.js"></script>
-	<script src="../startup/common-files/js/easing.min.js"></script>
-	<script src="../startup/common-files/js/jquery.svg.js"></script>
-	<script src="../startup/common-files/js/jquery.svganim.js"></script>
-	<script src="../startup/common-files/js/jquery.backgroundvideo.min.js"></script>
-	<script src="../startup/common-files/js/froogaloop.min.js"></script>
-	<script src="../startup/common-files/js/startup-kit.js"></script>
-	<script src="../js/script.js"></script>
-	<script>
-  (function($){
-  $('.background').each(function() {
-    $(this).parallax('50%', 0.3, true);
-  })
-}(jQuery));
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../startup/common-files/js/jquery-1.10.2.min.js"></script>
+    <script src="../startup/common-files/js/jquery.bxslider.min.js"></script>
+    <script src="../startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="../startup/common-files/js/jquery.sharrre.min.js"></script>
+    <script src="../startup/flat-ui/js/bootstrap.min.js"></script>
+    <script src="../startup/common-files/js/masonry.pkgd.min.js"></script>
+    <script src="../startup/common-files/js/modernizr.custom.js"></script>
+    <script src="../startup/common-files/js/page-transitions.js"></script>
+    <script src="../startup/common-files/js/jquery.parallax.min.js"></script>
+    <script src="../startup/common-files/js/easing.min.js"></script>
+    <script src="../startup/common-files/js/jquery.svg.js"></script>
+    <script src="../startup/common-files/js/jquery.svganim.js"></script>
+    <script src="../startup/common-files/js/jquery.backgroundvideo.min.js"></script>
+    <script src="../startup/common-files/js/froogaloop.min.js"></script>
+    <script src="../startup/common-files/js/startup-kit.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        (function($) {
+            $('.background').each(function() {
+                $(this).parallax('50%', 0.3, true);
+            })
+        }(jQuery));
+    </script>
 
-</script>
-
-	</div>
+    </div>
 </body>
 
 </html>
