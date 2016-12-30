@@ -1,0 +1,5 @@
+<p class="lead">
+Wir helfen konkret bei der Suche nach Ärzten, die zu Ihnen passen, verschaffen Ihnen eine unabhängige zweite Meinung um sicherzustellen,
+dass Sie die richtige Therapie wählen oder ermöglichen Ihnen den Zugang zu modernsten Diagnostika, die die Wirksamkeit von Zytostatika 
+oder anderen  Medikamenten vor Gabe messen können, damit Sie mit gutem Gefühl informiert entscheiden.
+</p>
